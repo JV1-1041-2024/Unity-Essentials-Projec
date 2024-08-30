@@ -39,10 +39,25 @@ private void OnTriggerEnter(Collider other)
 {
 
 
-    //destroy the collectible
+
+if (other.CompareTag("Player")) {
+
+
+       //destroy the collectible
 
 
     Destroy(gameObject);
+
+//INSTANTATE PARTICLES
+Instantiate(onCollectEffect, transform.position, transform.rotation);
+
+    
+
+
+
+}
+
+
 
     
 }
