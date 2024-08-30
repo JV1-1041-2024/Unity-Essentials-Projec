@@ -251,8 +251,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92badd2d5e87ade46a72b3a46b0b8338, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 25
-  rotationSpeed: 160
+  speed: 5
+  rotationSpeed: 180
 --- !u!4 &776428265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2443222494390099560, guid: 0070ddc6631cb4a5890eda2dcb952e80,
