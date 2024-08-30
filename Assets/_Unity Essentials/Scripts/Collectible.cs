@@ -10,6 +10,9 @@ public class Collectible : MonoBehaviour
 
 
     public float rotationSpeed;
+    
+    public GameObject onCollectEffect;
+
 
 
 
