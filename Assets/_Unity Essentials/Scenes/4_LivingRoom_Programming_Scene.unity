@@ -295,7 +295,7 @@ PrefabInstance:
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.285
+      value: 0.328
       objectReference: {fileID: 0}
     - target: {fileID: 6758868846053782678, guid: 48a1621d709d547aba6166cd22b8d1a9,
         type: 3}
@@ -342,6 +342,11 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7923004479745742062, guid: 48a1621d709d547aba6166cd22b8d1a9,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -369,7 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1da3358529242143b8bd56112481b51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 12
+  rotationSpeed: 0.3
 --- !u!1 &1440623002 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 673875306344337644, guid: 625a16b402cfd487494f48992994e27e,
